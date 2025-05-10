@@ -37,7 +37,7 @@ const Hero = () => {
                 <div className="relative w-[90%] h-[90%]">
                   <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-blue-200/30 to-indigo-200/30 rounded-2xl transform rotate-3 shadow-md transition-transform"></div>
                   <img
-                    src="../../resources/profile-picture.jpeg"
+                    src="/profile-picture.jpeg"
                     alt="Siddhanta, ML Engineer"
                     className="relative w-full h-full object-cover rounded-2xl shadow-lg transition-opacity"
                   />
