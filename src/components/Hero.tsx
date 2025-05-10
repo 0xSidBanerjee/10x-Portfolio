@@ -1,9 +1,11 @@
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { Analytics } from "@vercel/analytics/next"
 
 const Hero = () => {
   return (
     <section className="pt-32 pb-20">
+      <Analytics/>
       <div className="container max-w-6xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-5 gap-12 items-center">
           <div className="md:col-span-3 stagger-fade-in">
