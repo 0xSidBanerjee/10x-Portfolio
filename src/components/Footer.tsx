@@ -39,7 +39,7 @@ const Footer = () => {
             </a>
             <div className="group relative flex items-center">
               <a 
-                href="https://suckless.siddhantabanerjee.com" 
+                href="https://sids-portfoliosuckless.vercel.app/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="flex items-center text-sm text-neutral-600 hover:text-black transition-colors"
